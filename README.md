@@ -11,9 +11,9 @@
 ## 运行说明  
 运行我的程序是直接调用的config文件夹底下的地图信息。这个程序只是运行的map1的，如果运行map2也就是config_1文件夹下的地图信息就把[程序]()第965-967行改为如下代码既可以了：
 ```
-carInfo = open('../config/car.txt', 'r').read().split('\n')[1:]
-roadInfo = open('../config/road.txt', 'r').read().split('\n')[1:]
-crossInfo = open('../config/cross.txt', 'r').read().split('\n')[1:]
+carInfo = open('../config_1/car.txt', 'r').read().split('\n')[1:]
+roadInfo = open('../config_1/road.txt', 'r').read().split('\n')[1:]
+crossInfo = open('../config_1/cross.txt', 'r').read().split('\n')[1:]
 ```
 建议用pycharm直接debug运行。
 这一份代码跑出来总成绩应该是6000左右，我最后调参之后的代码放在另外一台电脑里面（当时比赛之前，自己的电脑linux跑崩了气死人），我用U盘ctrl+x考出来时，代码不见了，不知道为什么，然后原文件也不见了，后来尝试了多种恢复文件的方法都没有成功，再加上是实验室另一个同学的电脑，怕给他调坏了，所以就放弃了。调参改动就只有几个参数而已，总体的代码思路是一样的。
