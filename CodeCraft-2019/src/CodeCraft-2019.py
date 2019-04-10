@@ -962,9 +962,9 @@ def main():
 #     roadInfo = open(road_path, 'r').read().split('\n')[1:]
 #     crossInfo = open(cross_path, 'r').read().split('\n')[1:]
 
-    carInfo = open('../config/car.txt', 'r').read().split('\n')[1:]
-    roadInfo = open('../config/road.txt', 'r').read().split('\n')[1:]
-    crossInfo = open('../config/cross.txt', 'r').read().split('\n')[1:]
+    carInfo = open('config/car.txt', 'r').read().split('\n')[1:]
+    roadInfo = open('config/road.txt', 'r').read().split('\n')[1:]
+    crossInfo = open('config/cross.txt', 'r').read().split('\n')[1:]
 
     for line in carInfo:
         # print(line)
@@ -1082,7 +1082,7 @@ def main():
 
 # to write output file
 
-    fp = open('../config/answer.txt', 'w')
+    fp = open('config/answer.txt', 'w')
     for carname in CARNAMESPACE[:]:
         fp.write('(%s, %s' % (carname, CARDICT[carname].realtime))
         for value in CARDICT[carname].routemap[:]:
