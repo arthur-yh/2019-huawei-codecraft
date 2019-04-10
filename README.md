@@ -1,5 +1,6 @@
 # 2019-华为codecraft-港珠澳赛区-初赛43名
-代码部分参考了[大佬的可视化调度器](https://github.com/AkatsukiCC/huawei2019-with-visualization)
+代码部分参考了[大佬的可视化调度器](https://github.com/AkatsukiCC/huawei2019-with-visualization)。大家走过路过有兴趣可以观摩一下他的代码，顺便给师兄也打个星，整个比赛过程中，师兄给予了极大的帮助，真是太感谢了。  
+
 代码思路：用融合了地杰斯特拉的贪婪思想的A-star算法计算出来最短路径，然后将车辆按照路径长短和车辆速度两个维度进行了分批调度出发时间，最终初赛成绩5300多。
 
 赛题介绍：
